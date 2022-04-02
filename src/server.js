@@ -10,6 +10,6 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(useRoute);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3333, () => {
   console.log(`server running in ${port}`)
 });
