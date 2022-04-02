@@ -9,3 +9,4 @@ Esta breve api recebera os dados inseridos no formulario da nossa aplicação e 
 - Docker
 - Sequelize ORM
 - Mysql
+- Adminer
