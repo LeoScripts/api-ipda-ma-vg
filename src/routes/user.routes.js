@@ -1,17 +1,12 @@
 const { Router } = require("express");
+const UserController = require("../controller/UserController");
 
 const useRoute = Router();
 
-useRoute.post('/', (req,res) => {
-  res.send('store');
-});
+useRoute.post('/', UserController.store);
 
-useRoute.get('/', (req,res) => {
-  res.send('read');
-});
+useRoute.get('/', UserController.read);
 
-useRoute.delete('/', (req,res) => {
-  res.send('delete');
-});
+useRoute.delete('/', UserController.delete);
 
 module.exports = useRoute;
