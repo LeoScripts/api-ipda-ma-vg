@@ -16,7 +16,7 @@ class User extends Model {
                 type:DataTypes.STRING,
                 allowNull:false
             },
-            password:{
+            tel:{
                 type:DataTypes.STRING,
                 allowNull:false
             },
