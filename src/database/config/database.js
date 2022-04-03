@@ -1,9 +1,9 @@
 module.exports = {
   development: {
-    username: "root",
-    password: "123456",
-    database: "ipda-vg",
-    host: "localhost",
+    username: process.env.MYSQL_USERNAME,
+    password: process.env.MYSQL_ROOT_PASSWORD,
+    database: process.env.MYSQL_DATABASE,
+    host: process.env.MYSQL_HOST,
     dialect: "mysql",
     define:{
       timestamps:false,

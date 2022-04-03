@@ -7,6 +7,5 @@ useRoute.post('/', UserController.store);
 
 useRoute.get('/', UserController.read);
 
-useRoute.delete('/', UserController.delete);
 
 module.exports = useRoute;
