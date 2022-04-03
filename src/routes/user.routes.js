@@ -7,5 +7,4 @@ useRoute.post('/', UserController.store);
 
 useRoute.get('/', UserController.read);
 
-
 module.exports = useRoute;
