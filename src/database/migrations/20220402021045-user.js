@@ -8,6 +8,7 @@ module.exports = {
        name: Sequelize.STRING,
        email: Sequelize.STRING,
        tel: Sequelize.STRING,
+       msg: Sequelize.STRING,
       });
      
   },
