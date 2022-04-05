@@ -1,10 +1,9 @@
 const { Router } = require("express");
 const UserController = require("../controller/UserController");
+const auth = require('../middlewares/auth');
 
 const useRoute = Router();
 
-useRoute.post('/', UserController.store);
-
-useRoute.get('/', UserController.read);
+useRoute.post('/',auth,UserController.store);
 
 module.exports = useRoute;
