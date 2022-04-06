@@ -63,6 +63,8 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 # Clone this project
 $ git clone https://github.com/LeoScripts/api-ipda-ma-vg
 
+# in case of putting into production it is important to put the same database password inside the .env and docker-compose.yaml inside the environment variables or if you prefer you can do it via terminal and don't forget to rename the .env.example to .env
+
 # Access
 $ cd api-ipda-ma-vg
 
