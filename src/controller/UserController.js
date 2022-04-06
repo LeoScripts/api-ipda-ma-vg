@@ -11,6 +11,8 @@ const UserController = {
       const user = await UserModel.create({
         id,name,email,tel,msg
       }); 
+
+      console.log(user)
   
       return res.status(200).json({message:"messagem criada com sucesso"});
     }

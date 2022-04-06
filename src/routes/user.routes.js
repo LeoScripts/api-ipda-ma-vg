@@ -4,6 +4,6 @@ const auth = require('../middlewares/auth');
 
 const useRoute = Router();
 
-useRoute.post('/',auth,UserController.store);
+useRoute.post('/user',auth,UserController.store);
 
 module.exports = useRoute;
