@@ -85,7 +85,7 @@ $ npm run dev
 # Run the project in production
 $ npm start
 
-# The server will initialize in the <http://localhost:3333>
+# The server will initialize in the <http://localhost:3333/user>
 ```
 
 ## :memo: License ##
