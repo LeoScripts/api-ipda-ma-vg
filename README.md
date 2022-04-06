@@ -1,10 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Api Ipda Ma Vg" />
-
-  &#xa0;
-
-  <!-- <a href="https://apiipdamavg.netlify.app">Demo</a> -->
-</div>
 
 <h1 align="center">Api Ipda Ma Vg</h1>
 
