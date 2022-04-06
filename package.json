@@ -1,15 +1,15 @@
 {
   "name": "api-ipda-ma-vg",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api used to store data on the site ipda Vargem Grande - MA",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start":"node src/server.js"
   },
   "keywords": [
     "API",
     "Node",
-    "JWT",
     "Sequelize",
     "Mysql",
     "Docker"
@@ -21,7 +21,6 @@
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.3",
     "morgan": "^1.10.0",
-    "multer": "^1.4.4",
     "mysql2": "^2.3.3",
     "sequelize": "^6.17.0",
     "uuid": "^8.3.2"
